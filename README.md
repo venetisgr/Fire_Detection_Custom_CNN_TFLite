@@ -55,7 +55,7 @@ There are 4 sections:
 - Only the full integer quantization methods with and without input quantization works
 - Our model had 73,041 parameters.
 - Average inference time in both cases and for all 4 appraoches for one observation on arduino was roughly 1.75 sec
-- Significant model size reduction, from roughly 590KB model size, quantizationS led to models of size roughly 86KB.
+- Significant model size reduction, from roughly 300KB model size, quantizationS led to models of size roughly 86KB.
 - When uploaded, the models used roughly 50% of the FLASH memory and 90% of the SRAM memory. Should be noted that the size selected for tensor arena was 100*1024 Bytes/ 100KB, tensor arena is stored in SRAM. We can increase or decrease(x * 1024) the size of tensor arena to match the requirements of our model memory requirements as well as reduce the memory requirements.
 - Accuracy wise the original model and the optimized had similar performance. More details can be seen at the bottom of the readme
 
@@ -75,6 +75,15 @@ There are 4 sections:
 
 ## 4 -  Results
 
-| Method  | Quantization | Test Accuracy  | Model Size in KB   | Fit Arduino Memory |
+| Method  | Post Training Quantization | Test Accuracy  | Model Size in KB   | Fit Arduino Memory |
 | --------------------------------------------------------------------------------- | ---------- | -------------------- | ------------------------ | -------------- |
-| Quantization Aware   | Full Integer Without Input quant.        |    A       | HEAP                 | ✅             |
+| Quantization Aware   | Full Integer Without Input quantization        |    0.8       | 87.47                 | ✅             |
+| Quantization Aware   | Full Integer With Input quantization        |          |                  | ✅             |
+| Quantization Aware   | None        |    0.8       | 591                 |              |
+
+| None   | Full Integer Without Input quantization        |    0.83       | 86.68                 | ✅             |
+| None    | Full Integer With Input quantization        |          |                  | ✅             |
+| None    | None        |           |     291            |    0.8         | |
+
+| Quantization Aware   | Full Integer Without Input quantization        |    0.8       | 87.47                 | ✅             |
+| Quantization Aware   | Full Integer Without Input quantization        |    0.8       | 87.47                 | ✅             |
