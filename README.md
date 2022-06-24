@@ -82,7 +82,7 @@ There are 4 sections:
 | Quantization Aware   | None        |    0.8       | 591                 |              |
 | None   | Full Integer Without Input quantization        |    0.83       | 86.68                 | ✅             |
 | None    | Full Integer With Input quantization        |     0.825     |         86.51         | ✅             |
-| None    | None        |     0.8       |            291      |           | 
+| None    | None        |     0.83       |            291      |           | 
 | Pruning   | Full Integer Without Input quantization        |  0.82        |       87           | ✅             |
 | Pruning    | Full Integer With Input quantization        |     0.82     |           86.5       | ✅             |
 | Pruning    | None       |   0.84       |       x           |             | 
