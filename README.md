@@ -1,2 +1,1 @@
-# Fire_Detection_Custom_CNN_TFLite
-Fire_Detection_Custom_CNN_TFLite
+# Fire Detection with a Custom CNN in TFLite
