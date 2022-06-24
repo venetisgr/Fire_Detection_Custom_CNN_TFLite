@@ -88,5 +88,5 @@ There are 4 sections:
 | Pruning    | None       |          |       x           |             | 
 | Clustering   | Full Integer Without Input quantization        |   0.86       |    86.6              | ✅             |
 | Clustering    | Full Integer With Input quantization        |    0.855      |          86.4        | ✅             |
-| None    | Full Integer With Input quantization        |  0.86        |        x          |             |
+| Clustering    | None       |  0.86        |        x          |             |
 
