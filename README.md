@@ -75,8 +75,16 @@ There are 4 sections:
 
 ## 4 -  Results
 
-| Method                                                                         | Quantization | Test Accuracy             | Model Size                 | Fit Arduino Memory|
+| Method                                                                         | Quantization | Test Accuracy             | Model Size                 | Fit Arduino Memory |
 | --------------------------------------------------------------------------------- | ---------- | -------------------- | ------------------------ | -------------- |
+| [kth Largest Element](/Heap/Kth_largest/kth_largest.py) [website link](https://leetcode.com/problems/kth-largest-element-in-an-array/solution/)                          | 🔵         |    A       | HEAP                 | ✅             |
+| [kth Largest Element](/Heap/Kth_largest/kth_largest.py) [website link](https://leetcode.com/problems/kth-largest-element-in-an-array/solution/)                          | 🔵         |    A       | HEAP                 | ✅             |
+| [kth Largest Element](/Heap/Kth_largest/kth_largest.py) [website link](https://leetcode.com/problems/kth-largest-element-in-an-array/solution/)                          | 🔵         |    A       | HEAP                 | ✅             |
+| [kth Largest Element](/Heap/Kth_largest/kth_largest.py) [website link](https://leetcode.com/problems/kth-largest-element-in-an-array/solution/)                          | 🔵         |    A       | HEAP                 | ✅             |
+| [kth Largest Element](/Heap/Kth_largest/kth_largest.py) [website link](https://leetcode.com/problems/kth-largest-element-in-an-array/solution/)                          | 🔵         |    A       | HEAP                 | ✅             |
+| [kth Largest Element](/Heap/Kth_largest/kth_largest.py) [website link](https://leetcode.com/problems/kth-largest-element-in-an-array/solution/)                          | 🔵         |    A       | HEAP                 | ✅             |
+| [kth Largest Element](/Heap/Kth_largest/kth_largest.py) [website link](https://leetcode.com/problems/kth-largest-element-in-an-array/solution/)                          | 🔵         |    A       | HEAP                 | ✅             |
+| [kth Largest Element](/Heap/Kth_largest/kth_largest.py) [website link](https://leetcode.com/problems/kth-largest-element-in-an-array/solution/)                          | 🔵         |    A       | HEAP                 | ✅             |
 | [kth Largest Element](/Heap/Kth_largest/kth_largest.py) [website link](https://leetcode.com/problems/kth-largest-element-in-an-array/solution/)                          | 🔵         |    A       | HEAP                 | ✅             |
 
 
