@@ -83,5 +83,10 @@ There are 4 sections:
 | None   | Full Integer Without Input quantization        |    0.83       | 86.68                 | ✅             |
 | None    | Full Integer With Input quantization        |     0.825     |         86.51         | ✅             |
 | None    | None        |     0.8       |            291      |           | 
-
+| Pruning   | Full Integer Without Input quantization        |          |                  | ✅             |
+| Pruning    | Full Integer With Input quantization        |          |                  | ✅             |
+| Pruning    | None       |          |       x           |             | 
+| Clustering   | Full Integer Without Input quantization        |   0.86       |    86.6              | ✅             |
+| Clustering    | Full Integer With Input quantization        |    0.855      |          86.4        | ✅             |
+| None    | Full Integer With Input quantization        |  0.86        |        x          |             |
 
