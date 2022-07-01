@@ -51,7 +51,7 @@ There are 4 sections:
 ## 2 - Observations
 
 - Even with small architectures, size restriction seems to set a great limitation for the performance
-- All 4 appraoches seem to result in great compression and accurasy preservesion. More experiments need to be performed in order to identify which is one performs best overall. The pruning and clustering methods can be further optimized by changing the hyperparameters
+- All 4 approaches seem to result in great compression and accuracy preservesion. More experiments need to be performed in order to identify which is one performs best overall. The pruning and clustering methods can be further optimized by changing the hyperparameters
 - Only the full integer quantization methods with and without input quantization works
 - Our model had 73,041 parameters.
 - Average inference time in both cases and for all 4 appraoches for one observation on arduino was roughly 1.75 sec
@@ -90,3 +90,13 @@ There are 4 sections:
 | Clustering    | Full Integer With Input quantization        |    0.855      |          86.4        | ✅             |
 | Clustering    | None       |  0.86        |        x          |             |
 
+
+## 5 - Requirements
+
+tensorflow version == 2.8.2
+
+tensorflow.keras version == 2.8.0
+ 
+tensorflow_model_optimization version == 0.7.2
+
+arduino_tensorflowlite == 2.4.0-ALPHA
