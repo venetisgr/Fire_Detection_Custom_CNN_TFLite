@@ -72,6 +72,10 @@ There are 4 sections:
 (https://github.com/tensorflow/tflite-micro/issues/280)
 - Input/Output int8 quantization had a significant accuracy drop and weird behavior.More specifically the output when transformed back had different results than the ones we expected. Thus only input quantization was preferred.
 (https://github.com/tensorflow/tflite-micro/issues/396)
+- In order to truly leverage the optimization done from the pruned and clustered models we would need to zip them. But this would make the models unusable from arduino
+
+
+
 
 ## 4 -  Results
 
