@@ -3,7 +3,7 @@ The main goal of this project is to create a CNN Network and later deploy it on 
 
 ***IMPORTANT***
 - A few words about the arduino storage space, which will be useful later. Arduino has 1MB of flash memory and 256KB of SRAM. Flash memory is where the arduino sketch is stored, the model and all the constant variables are stored. SRAM is where the variables created by the sketch will be stored, as well as any dynamic variables such as the ones of tensor arena.
-- TFlite model when deployed to a microcontroler doesn't require a dynamic memoryt allocation. All the memory that will be needed by the input,output,intermediate activations etc. is predefined in the sketch. The size that they will "occupy" is defined by the variable tensor arena. This memory allocation takes "space" from SRAM. The model itself (weights,architecture,quantization information) are stored in Flash memory.
+- TFlite model when deployed to a microcontroler doesn't require a dynamic memory allocation. All the memory that will be needed by the input,output,intermediate activations etc. is predefined in the sketch. The size that they will "occupy" is defined by the variable tensor arena. This memory allocation takes "space" from SRAM. The model itself (weights,architecture,quantization information) are stored in Flash memory.
 
 There are 4 sections:
 
